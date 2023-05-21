@@ -3,7 +3,6 @@
 }
 
 .wrapper {
-    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -12,6 +11,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80%;
+    margin: 2em 10%;
 }
 
 header img {
@@ -19,7 +20,7 @@ header img {
 }
 
 nav {
-    margin: 4em 2em;
+    margin: 2em 2em;
 }
 
 nav ul {
@@ -31,7 +32,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #F00;
+    color: #A00;
     text-transform: uppercase;
     font-size: 1.3rem;
     position: relative
@@ -46,7 +47,7 @@ nav a.active:before {
     content: "";
     width: 35%;
     height: 1px;
-    border-bottom: 2px solid #F00;
+    border-bottom: 2px solid #A00;
     bottom: 0px;
 }
 
@@ -55,11 +56,68 @@ nav a:before {
     content: "";
     width: 0%;
     height: 1px;
-    border-bottom: 2px solid #F00;
+    border-bottom: 2px solid #A00;
     bottom: 0px;
     transition: width .3s;
 }   
 
 nav a:hover:before {
     width: 35%;
+}
+
+main {
+    width: 80%;
+    margin: 2em 10%;
+}
+
+.about {
+    text-align: center;
+    margin-top: 2em;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-size: 2.5rem;
+    color: #A00;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+.subhead {
+    max-width: 70%;
+    margin: auto 15%;
+}
+
+.about img {
+    height: 12em;
+    margin: 1em 1em;
+}
+
+.cta {
+    position: relative;
+    margin-top: 5%;
+}
+
+.cta svg {
+    height: 5em;
+    width: auto;
+    transition: transform .3s;
+}
+
+.cta svg:hover {
+    transform: translateY(10px);
+}
+
+.ilus {
+    margin-top: 5em;
+}
+
+footer {
+    background-color: rgba(170, 0, 0, 1);
+}
+
+footer h1, footer p {
+    font-size: 70%;
 }
