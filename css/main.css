@@ -11,12 +11,15 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 80%;
-    margin: 2em 10%;
+    width: 70%;
+    margin: 0 15%;
+    position: fixed;
+    top: 0px;
+    background-color: white;
 }
 
 header img {
-    max-height: 4.2em;
+    max-height: 7em;
 }
 
 nav {
@@ -32,10 +35,11 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #A00;
+    color: #484848;
     text-transform: uppercase;
     font-size: 1.3rem;
-    position: relative
+    position: relative;
+    font-family: 'Kalam';
 }
 
 nav a.active {
@@ -47,7 +51,7 @@ nav a.active:before {
     content: "";
     width: 35%;
     height: 1px;
-    border-bottom: 2px solid #A00;
+    border-bottom: 2px solid #484848;
     bottom: 0px;
 }
 
@@ -56,7 +60,7 @@ nav a:before {
     content: "";
     width: 0%;
     height: 1px;
-    border-bottom: 2px solid #A00;
+    border-bottom: 2px solid #2a2a2a;
     bottom: 0px;
     transition: width .3s;
 }   
@@ -67,7 +71,7 @@ nav a:hover:before {
 
 main {
     width: 80%;
-    margin: 2em 10%;
+    margin: 10em 10%;
 }
 
 .about {
@@ -78,7 +82,9 @@ main {
 h1 {
     font-size: 2.2rem;
     font-size: 2.5rem;
-    color: #A00;
+    color: #484848;
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
 }
 
 p {
@@ -112,12 +118,53 @@ p {
 
 .ilus {
     margin-top: 5em;
+    display: grid;
+    gap: 2em;
+    grid-template-columns: 4;
 }
+/* 
+https://www.youtube.com/watch?v=6qko7Nbe8YA */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer {
-    background-color: rgba(170, 0, 0, 1);
+    background-color: #484848;
+    max-height: 8em;
+    display: flex;
+    position: absolute;
+    margin: 0;
 }
 
-footer h1, footer p {
-    font-size: 70%;
+footer a {
+    text-decoration: none;
+}
+
+footer p {
+    font-size: 1.2rem;
+    color: white;
+}
+
+footer svg {
+    max-height: 1.2rem;
+}
+
+.author {
+    width: 80%
 }
