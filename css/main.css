@@ -117,31 +117,6 @@ p {
     transform: translateY(10px);
 }
 
-.social-menu {
-    position: fixed;
-    right: 3%;
-    top: 45%;
-}
-
-.social-menu ul {
-    list-style: none;
-}
-
-.fa-brands {
-    font-size: 1.5em;
-}
-
-.social-menu a {
-    font-size: 2em;
-    color: rgba(96, 15, 180, 1);
-    transition: all .1s;
-}
-
-.social-menu a:hover {
-    transform: translateX(-10px);
-    font-size: 2.2em;
-}
-
 .ilus {
     margin-top: 5em;
     display: grid;
