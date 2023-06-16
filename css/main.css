@@ -83,9 +83,8 @@ main {
 
 h1 {
     font-size: 2.5rem;
-    color: #484848;
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
+    color: #2a2a2a;
+    font-family: 'Kalam';
 }
 
 p {
@@ -127,21 +126,50 @@ p {
 }
 
 .heading h1 {
-    font-size: 2.2rem;
     font-size: 2.5rem;
-    color: #484848;
-    font-family: 'Kalam', cursive;
-    font-weight: bold;
+    color: #2a2a2a;
+    font-family: 'Kalam';
 }
 
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: topleft;
+    width: 70%;
+    align-self: center;
+}
 
 .ilus {
-    display: flex;
+    text-align: center;
+}
+
+.cnps {
+    text-align: center;
+    gap: 2em;
+    padding: .5em;
+}
+
+.chrs {
+    text-align: center;
 }
 
 .ilus img {
-    width: 33%;
+    height: 20em;
     border-radius: 5px;
+}
+
+.cnps img {
+    height: 20em;
+    border-radius: 5px;
+}
+
+.chrs img {
+    height: 20em;
+    border-radius: 5px;
+}
+
+.space {
+    height: 5em;
 }
 
 /* 
