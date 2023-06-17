@@ -109,6 +109,21 @@ main {
     justify-content: center;
 }
 
+.about-left {
+    position: relative;
+}
+
+.about-left:before {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 40%;
+    margin: 0 auto;
+    right: 0;
+    top: 30%;
+    border-right: 1px dotted #6a6a6a;
+}
+
 h1 {
     font-size: 2.5rem;
     color: #2a2a2a;
