@@ -34,7 +34,7 @@ header {
 }
 
 .nav-container img {
-    max-height: 6.5em;
+    max-height: 6em;
     padding: 0.2em;
 }
 
@@ -121,12 +121,12 @@ h1.heading {
 }
 
 p {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
 }
 
 .subhead {
     max-width: 60%;
-    margin: 2em auto;
+    margin: 3em auto;
     margin-top: 1em;
 }
 
