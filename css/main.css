@@ -92,7 +92,7 @@ main {
 }
 
 .about {
-    margin-top: 12em;
+    margin-top: 10em;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -177,13 +177,9 @@ span {
     background-color: #7E885F;
 }
 
-.contact-me {
-    width: 50%;
+.widget {
+    width: fit-content;
     margin: auto;
-}
-
-.elfsight-app-0c7aaa45-283e-47c7-ade4-b887d448bd4d {
-    margin: .5em auto;
 }
 
 .gallery {
