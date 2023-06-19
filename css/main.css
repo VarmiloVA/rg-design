@@ -146,7 +146,7 @@ p {
 
 .subhead {
     max-width: 60%;
-    min-width: 300px;
+    min-width: 250px;
     margin: 3em auto;
     margin-top: 1em;
 }
@@ -332,8 +332,6 @@ Phone breakpoint = 800px
         justify-content: center;
         gap: 3em;
         padding: 0;
-        
-          
     }
 
     .section-redirect {
@@ -414,4 +412,39 @@ Phone breakpoint = 800px
         height: auto;
     }
 
+}
+
+
+/* Phone */
+@media (max-width: 800px) {
+    header {
+        padding: 1em;
+        justify-content: center;
+    }
+
+    .nav-container {
+        margin: 0 auto;
+    }
+
+    .nav-container img {
+        height: 5em;
+    }
+    
+    .browse {
+        margin-top: 1em;
+        width: 80%;
+    }
+
+    .widget-container {
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    section {
+        margin: 0 auto;
+    }
 }
