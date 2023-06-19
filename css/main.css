@@ -325,11 +325,15 @@ Phone breakpoint = 800px
         flex-direction: column;
     }
 
-    nav.ul {
+    nav ul {
         gap: 0;
-        margin: 0;
+        margin: 0 auto;
         width: fit-content;
         justify-content: center;
+        gap: 3em;
+        padding: 0;
+        
+          
     }
 
     .section-redirect {
@@ -406,7 +410,7 @@ Phone breakpoint = 800px
     }
 
     .ilus img {
-        width: 60%;
+        width: 65%;
         height: auto;
     }
 
