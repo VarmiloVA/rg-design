@@ -435,6 +435,10 @@ Phone breakpoint = 800px
         width: 80%;
     }
 
+    .browse:hover {
+        background-color: #D0B172;
+    }
+
     .widget-container {
         margin: 0 auto;
         align-items: center;
