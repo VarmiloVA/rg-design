@@ -429,6 +429,10 @@ Phone breakpoint = 800px
     .nav-container img {
         height: 5em;
     }
+
+    .subhead {
+        margin-bottom: 2em;
+    }
     
     .browse {
         margin-top: 1em;
