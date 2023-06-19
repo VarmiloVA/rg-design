@@ -396,22 +396,6 @@ Phone breakpoint = 800px
     .samples img:hover {
         height: auto;
     }
-
-    .ilus img:hover {
-        height: auto;
-    }
-
-    .ilus {
-        margin: 0;
-        align-items: center;
-        transition: height .3s;
-    }
-
-    .ilus img {
-        width: 65%;
-        height: auto;
-    }
-
 }
 
 
@@ -451,8 +435,29 @@ Phone breakpoint = 800px
         flex-direction: column;
         padding: 0;
     }
+
+    .widget-container {
+        margin-top: 1em;
+    }
     
     section {
         margin: 0 auto;
     }
+
+    .samples {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .samples img {
+        margin: 0;
+        width: 75%;
+        margin: .5em 12.5%;
+        height: auto;
+    }
+
+    .samples img:hover {
+        height: auto;
+    }
+
 }
