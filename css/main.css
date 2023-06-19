@@ -38,6 +38,11 @@ header {
 
 nav {
     margin: 2em 2em;
+    display: flex;
+}
+
+ul.section-redirect {
+    margin-right: 2em;
 }
 
 nav ul {
@@ -141,6 +146,7 @@ p {
 
 .subhead {
     max-width: 60%;
+    min-width: 300px;
     margin: 3em auto;
     margin-top: 1em;
 }
@@ -168,7 +174,7 @@ p {
     font-weight: bold;
     background-color: #D0B172;
     border-radius: 50px;
-    width: 27%;
+    width: 30%;
     transition: background-color .3s;
 }
 
@@ -176,7 +182,7 @@ span {
     font-family: 'Kalam';
 }
 
-.browse svg {
+/* .browse svg {
     width: 2em;
     margin: auto 0;
     transition: transform .3s;
@@ -186,7 +192,7 @@ span {
 
 .browse:hover svg {
     transform: translateX(10px);
-}
+} */
 
 .browse:hover {
     background-color: #7E885F;
@@ -254,6 +260,7 @@ span {
 footer {
     width: 100%;
     text-align: center;
+    margin-bottom: 3em;
 }
 
 footer ul {
@@ -284,4 +291,123 @@ footer a:hover:before {
 
 .author .fa-brands {
     color: #006;
+}
+
+/* 
+Tablet breakpoint = 1400px
+Phone breakpoint = 800px
+*/
+
+/*Tablet*/
+@media (max-width: 1300px) {
+    header {
+        border-bottom: 0px solid;
+        z-index: -3512351;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+        margin: auto;
+        margin-top: 0;
+        gap: 0;
+    }
+
+    .nav-container img {
+        max-height: 6em;
+        margin: 0 auto;
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav.ul {
+        gap: 0;
+        margin: 0;
+        width: fit-content;
+        justify-content: center;
+    }
+
+    .section-redirect {
+        visibility: hidden;
+        margin: 0;
+        width: 0;
+        height: 0;
+    } 
+
+    main {
+        background-color: #FFF;
+        margin: 0 auto;
+    }
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10.5em;
+    }
+
+    .about-col {
+        width: 80%;
+        margin: auto;
+    }
+
+    .about-right {
+        margin-top: 2.5em;
+        border-top: 1px dotted #2a2a2a;
+    }
+
+    .browse {
+        width: 40%;
+    }
+
+    .about-left:before {
+        visibility: hidden;
+    }
+
+    .gallery {
+        gap: 1em;
+    }
+
+    .container {
+        flex-direction: column;
+        width: 95%;
+        margin-left: auto;
+        gap: 0;
+    }
+
+    .samples {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .samples img {
+        margin: 0;
+        width: 75%;
+        margin: .5em 12.5%;
+        height: auto;
+    }
+
+    .samples img:hover {
+        height: auto;
+    }
+
+    .ilus img:hover {
+        height: auto;
+    }
+
+    .ilus {
+        margin: 0;
+        align-items: center;
+        transition: height .3s;
+    }
+
+    .ilus img {
+        width: 60%;
+        height: auto;
+    }
+
 }
